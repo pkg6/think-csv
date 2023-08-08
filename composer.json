@@ -1,0 +1,24 @@
+{
+  "name": "tp5er/think-csv",
+  "description": "一个thinkphp包，可以轻松地从Eloquent模型生成CSV文件。",
+  "license": "MIT",
+  "homepage": "https://github.com/tp5er/think-csv",
+  "keywords": [
+    "thinkphp",
+    "csv",
+    "eloquent",
+    "export"
+  ],
+  "require": {
+    "php": ">=7.2",
+    "league/csv": "^9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "tp5er\\thinkCsv\\": "src"
+    }
+  },
+  "require-dev": {
+    "topthink/framework": "^6.0"
+  }
+}
